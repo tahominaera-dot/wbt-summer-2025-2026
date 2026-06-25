@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <div>
+        <h2>Registration</h2>
+        <p>Please complete all fields below.</p>
+        <hr>
+
+        <form>
+            <div field>
+                <label for="full-name">Full Name</label><br>
+                <input type="text" id="full-name" placeholder="Jane Doe">
+            </div>
+            
+
+            <div field>
+                <label for="postal-code">Postal Code</label><br>
+                <input type="number" id="postal-code" placeholder="10001">
+            </div>
+            
+
+            <div field>
+                <label for="dob">Date of Birth</label><br>
+                <input type="text" id="dob" placeholder="25/06/2026">
+            </div>
+            
+
+            <div field>
+                <label for="email">Email Address</label><br>
+                <input type="email" id="email" placeholder="jane@example.com">
+            </div>
+    
+
+            <div field>
+                <label for="password">Password</label><br>
+                <input type="password" id="password" placeholder="******">
+            </div>
+            
+
+            <div field>
+                <label for="country">Country</label><br>
+                <select id="country">
+                    <option value="">Select a country...</option>
+                    <option value="bd">Bangladesh</option>
+                    <option value="in">India</option>
+                    <option value="pak">Pakistan</option>
+                </select>
+            </div>
+            
+
+            <div class="button group">
+                <button type="submit" class="btn-primary">Submit</button>        
+                <button type="reset" class="btn-secondary">Reset</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
